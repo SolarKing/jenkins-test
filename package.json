@@ -1,0 +1,31 @@
+{
+  "name": "jenkins-test-app",
+  "version": "1.0.0",
+  "description": "This repo is used to learn Jenkins CI with Node.js",
+  "main": "main.js",
+  "directories": {
+    "test": "node_modules/.bin/nodemon node_modules/.bin/mocha test"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0",
+    "supertest": "^2.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SolarKing/jenkins-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SolarKing/jenkins-test/issues"
+  },
+  "homepage": "https://github.com/SolarKing/jenkins-test#readme"
+}
